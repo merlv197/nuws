@@ -1,0 +1,1746 @@
+@media screen and (min-device-width: 500px) and (min-device-height: 200px){
+
+
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+
+
+.about{
+	cursor: pointer;
+
+    font-size: 6pt;
+    font-family: gt_walsheim;
+    text-align: right;
+    margin: 0 auto;
+    bottom: 10px;
+    left: 1%;
+    z-index: 100000;
+    position:fixed;
+    color: white;
+
+}
+
+#container0 {
+  background-size: 100%;
+  background-image: linear-gradient(90deg, #5292BD 0%, #9586C4 46%, #BE5E6D 87%, #F25555 100%);  
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: fixed;
+  opacity: 100%;
+  z-index: -1;
+  transition: opacity 3s linear;
+  
+}
+/*
+Right side 1*/
+
+#container95 {
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(90deg, #5292BD 0%, #9586C4 23%, #BE5E6D 61%, #F25555 100%);
+  display: inline-block;
+  position: fixed;
+  z-index: -2;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+  
+}
+
+/*RIGHT 2*/
+
+#container90 {
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(90deg, #5292BD 0%, #9586C4 10%, #BE5E6D 32%, #E95759 58%, #F25555 100%);
+  display: inline-block;
+  position: fixed;
+  z-index: -3 ;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+
+  
+}
+/*
+RIGHT 3*/
+
+#container105 {
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(90deg, #5292BD 0%, #9586C4 0%, #BE5E6D 0%, #F25555 100%);
+  display: inline-block;
+  position: fixed;
+  z-index: -4 ;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+
+  
+}
+
+/*LEFT 1*/
+
+#container110 {
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(90deg, #5292BD 25%, rgba(146,134,196,0.87) 48%, #BE5E6D 77%, #F25555 100%);
+  display: inline-block;
+  position: fixed;
+  z-index: -5 ;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+
+  
+}
+
+#container115 {
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(90deg, #5292BD 45%, #9286C4 65%, #BE5E6D 87%, #F25555 100%);
+  display: inline-block;
+  position: fixed;
+  z-index: -5 ;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+
+  
+}
+
+
+#container120 {
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(-90deg, #5292BD 73%, #9286C4 81%, #BE5E6D 97%, #F25555 100%);
+  display: inline-block;
+  position: fixed;
+  z-index: -5 ;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+
+  
+}
+
+#containerwhite{
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: white;
+  display: inline-block;
+  position: fixed;
+  z-index: -6 ;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+
+  
+}
+
+
+
+
+@font-face {
+    font-family: 'gt_walsheim';
+    src: url('../fonts/gt-walsheim-pro-trial-medium-webfont.woff2') format('woff2'),
+         url('../fonts/gt-walsheim-pro-trial-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+   
+
+}
+
+.clicked{
+	display: block;
+
+}
+
+.article-rating{
+	margin-top: 0;
+	color: white;
+
+	padding: 5px;
+	font-size: 8pt;
+	/*margin-left: 5px;*/
+	text-align: left;
+    font-family: gt_walsheim;
+	display: none;
+	position: relative;
+	left: 0;
+	top: 1%;
+	width: 5%;
+	height: auto;
+	cursor: pointer;
+	border: solid 1.5px white;
+}
+
+.article-source{display: none;}
+
+
+
+.footer p {
+	cursor: pointer;
+
+    font-size: 6pt;
+    font-family: gt_walsheim;
+    text-align: right;
+    margin: 0 auto;
+    bottom: 10px;
+    right: 1%;
+    z-index: 100000;
+    position:fixed;
+    color: white;
+
+}
+
+.logo{
+	left: 10px;
+	top: 10px;
+	position: fixed;
+	font-family: gt_walsheim;
+	font-size: 16px;
+	color: white;
+	padding: 10px;
+	width: auto;
+	height: 40px;
+}
+
+.logo:hover{
+	color: transparent;
+	
+
+}
+
+#container {
+	position: absolute;
+	overflow: scroll;
+	top: 13%;
+	left: 5%;
+	z-index: 2;
+	background-color: transparent;
+	height: auto;
+	max-width: 90%;
+	/*border: solid 1.5px white;*/
+	
+
+	/*column-count: 1;
+	column-gap: 0;
+	padding: 20px;*/
+}
+
+.articleTitle:hover{
+	border:solid 1.5px black;
+	background-color: white;
+	color: black;
+}
+
+
+.article-image-container {
+	width: 100%;
+	box-sizing: border-box;
+	transition: .2s cubic-bezier(0,0,0,1);
+	margin-bottom: 20px;
+}
+
+.article-image {
+	display: none;
+}
+
+.article-container {
+	display: block;
+	width: 100%;
+	z-index: 1;
+	/*padding: 20px;*/
+	/*margin-bottom: 10px;*/
+	margin-top: 10px;
+
+}
+
+.title-container{
+	margin-bottom: 40px;
+	left: 0;
+	width: auto;
+	z-index: 1;
+}
+
+@keyframes up {
+	to {
+		margin-top: 0;
+	}
+}
+
+
+
+.articleTitle {
+  border: 1.5px solid white;
+  font-family: 'gt_walsheim';
+  font-size: 14px;
+  padding:10px;
+  color: white;
+  z-index: 800000;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: lighter;
+  transition-timing-function: ease-out;
+
+  
+}
+
+.articleTitle: hover {
+	background-color: white;
+	color: black;
+	border: solid 1.5px black;
+
+}
+
+.article-author {
+	display: none;
+}
+
+.article-description {
+	display: none;
+	overflow: scroll;
+	/*display: block;*/
+	position: relative;
+	left: 0%;
+	/*border: 1.5px solid white;*/
+	font-family: 'gt_walsheim';
+ 	font-size:12px;
+ 	padding-top:10px;
+ 	margin-bottom: 1px;
+ 	max-width: 60%;
+ 	height: auto;
+	color: white;
+  	text-decoration: none;
+  
+  	font-weight: lighter;
+
+
+}
+
+
+
+.description-container{
+	display: inline-block;
+	position: relative;
+	left: 2%;
+	max-width: 80%;
+	height: auto;
+	border: solid black;
+	
+}
+
+#input {
+	position: fixed;
+	width: 90%;
+	left: 5%;
+	top: 4%;
+	z-index: 9000;
+	background-color: white;
+	height: 40px;
+	border: 1.5px solid black;
+	text-align: center;
+	font-family: gt_walsheim;
+	color: black;
+	border-bottom: 1.5px solid black;
+	font-size: 14px;
+	outline: 0;
+	transition-timing-function: ease-out;
+  	transition-delay: 6s;
+
+}
+
+/*#input:focus {
+	border-bottom: 1.5px solid white;
+	background-color: white;
+	color: black;	
+
+}*/
+/*
+#input:hover{
+	background-color: white;
+	color: black;
+
+}*/
+
+::-webkit-input-placeholder {
+  color: black;
+  
+}
+
+.article-title: active{
+	color: red;
+}
+
+}
+
+
+/*MOBILE
+MOBILE
+MOBILE
+MOBILE
+MOBILE
+MOBILE*/
+
+@media screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation: portrait){
+
+
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+.about{
+	cursor: pointer;
+
+    font-size: 6pt;
+    font-family: gt_walsheim;
+    text-align: right;
+    margin: 0 auto;
+    bottom: 10px;
+    left: 3%;
+    z-index: 100000;
+    position:fixed;
+    color: white;
+
+}
+
+#container0 {
+  background-size: 100%;
+  background-image: linear-gradient(90deg, #5292BD 0%, #9586C4 46%, #BE5E6D 87%, #F25555 100%);  
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: fixed;
+  opacity: 100%;
+  z-index: -1;
+  transition: opacity 3s linear;
+  
+}
+/*
+Right side 1*/
+
+#container95 {
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(90deg, #5292BD 0%, #9586C4 23%, #BE5E6D 56%, #F25555 100%);
+  display: inline-block;
+  position: fixed;
+  z-index: -2;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+  
+}
+
+/*RIGHT 2*/
+
+#container90 {
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(90deg, #5292BD 0%, #9586C4 10%, #BE5E6D 32%, #E95759 58%, #F25555 100%);
+  display: inline-block;
+  position: fixed;
+  z-index: -3 ;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+
+  
+}
+/*
+RIGHT 3*/
+
+#container105 {
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+   background-image: linear-gradient(90deg, #5292BD 0%, #9586C4 0%, #BE5E6D 0%, #F25555 100%);
+  display: inline-block;
+  position: fixed;
+  z-index: -4 ;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+
+  
+}
+
+/*LEFT 1*/
+
+#container110 {
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(90deg, #5292BD 25%, rgba(146,134,196,0.87) 48%, #BE5E6D 77%, #F25555 100%);
+  display: inline-block;
+  position: fixed;
+  z-index: -5 ;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+
+  
+}
+
+#container115 {
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(90deg, #5292BD 45%, #9286C4 65%, #BE5E6D 87%, #F25555 100%);
+  display: inline-block;
+  position: fixed;
+  z-index: -5 ;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+
+  
+}
+
+
+#container120 {
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(-90deg, #5292BD 73%, #9286C4 81%, #BE5E6D 97%, #F25555 100%);
+  display: inline-block;
+  position: fixed;
+  z-index: -5 ;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+
+  
+}
+
+#containerwhite{
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: white;
+  display: inline-block;
+  position: fixed;
+  z-index: -6 ;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+
+  
+}
+
+
+
+
+@font-face {
+    font-family: 'gt_walsheim';
+    src: url('../fonts/gt-walsheim-pro-trial-medium-webfont.woff2') format('woff2'),
+         url('../fonts/gt-walsheim-pro-trial-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+   
+
+}
+
+.clicked{
+	display: block;
+
+}
+
+.article-rating{
+	margin-top: 0;
+  margin-top: 5px;
+	color: white;
+	padding: 5px;
+	font-size: 8pt;
+	margin-left: 5px;
+	text-align: left;
+    font-family: gt_walsheim;
+	display: none;
+	position: relative;
+	left: 0;
+	top: 1%;
+	max-width:  30%;
+	height: auto;
+	cursor: pointer;
+	
+}
+
+.article-source{display: none;}
+
+
+
+.footer p {
+	cursor: pointer;
+
+    font-size: 6pt;
+    font-family: gt_walsheim;
+    text-align: right;
+    margin: 0 auto;
+    bottom: 10px;
+    right: 3%;
+    z-index: 100000;
+    position:fixed;
+    color: white;
+
+}
+
+.logo{
+	left: 10px;
+	top: 10px;
+	position: fixed;
+	font-family: gt_walsheim;
+	font-size: 16px;
+	color: white;
+	padding: 10px;
+	width: auto;
+	height: 40px;
+}
+
+.logo:hover{
+	color: transparent;
+	
+
+}
+
+#container {
+	position: relative;
+	overflow: scroll;
+	top: 13%;
+	left: 50%;
+  transform: translate(-50%);  
+	z-index: 2;
+	background-color: transparent;
+	height: auto;
+	width: 100%;
+	/*border: solid 1.5px white;*/
+	
+
+	/*column-count: 1;
+	column-gap: 0;
+	padding: 20px;*/
+}
+
+.articleTitle:hover{
+	border:solid 1.5px black;
+	background-color: white;
+	color: black;
+}
+
+
+.article-image-container {
+	width: 100%;
+	box-sizing: border-box;
+	transition: .2s cubic-bezier(0,0,0,1);
+	margin-bottom: 20px;
+}
+
+.article-image {
+	display: none;
+}
+
+.article-container {
+	display: block;
+  position: relative;
+	width: 100%;
+  height: auto;
+	z-index: 1;
+	/*padding: 20px;*/
+	/*margin-bottom: 10px;*/
+	margin-top: 10px;
+
+}
+
+.title-container{
+  position: relative;
+	padding:10px;
+	border: 1.5px solid white;
+	margin-bottom: 15px;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+@keyframes up {
+	to {
+		margin-top: 0;
+	}
+}
+
+
+
+.articleTitle {
+  /*border: 1.5px solid white;*/
+  font-family: 'gt_walsheim';
+  font-size: 12px;
+  max-width: 100%;
+  padding:10px;
+  color: white;
+  z-index: 800000;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: lighter;
+  transition-timing-function: ease-out;
+
+  
+}
+
+.articleTitle: hover {
+	background-color: white;
+	color: black;
+	/*border: solid 1.5px black;*/
+
+}
+
+.article-author {
+	display: none;
+}
+
+.article-description {
+	display: none;
+	overflow: scroll;
+  text-align: left;
+	/*display: block;*/
+	position: relative;
+	left: 2%;
+	/*border: 1.5px solid white;*/
+	font-family: 'gt_walsheim';
+ 	font-size:12px;
+ 	padding-top:10px;
+ 	margin-bottom: 5px;
+ 	max-width: 90%;
+ 	height: auto;
+	color: white;
+  	text-decoration: none;
+  
+  	font-weight: lighter;
+
+
+}
+
+
+
+.description-container{
+	display: inline-block;
+	position: relative;
+	left: 2%;
+	max-width: 80%;
+	height: auto;
+	border: solid black;
+	
+}
+
+#input {
+	position: fixed;
+	width: 90%;
+	left: 50%;
+  transform: translate(-50%);
+	top: 4%;
+	z-index: 9000;
+	background-color: white;
+	height: 40px;
+	border: 1.5px solid black;
+	text-align: center;
+	font-family: gt_walsheim;
+	color: black;
+	border-bottom: 1.5px solid black;
+	font-size: 14px;
+	outline: 0;
+	transition-timing-function: ease-out;
+  	transition-delay: 6s;
+
+}
+
+/*#input:focus {
+	border-bottom: 1.5px solid white;
+	background-color: white;
+	color: black;	
+
+}*/
+/*
+#input:hover{
+	background-color: white;
+	color: black;
+
+}*/
+
+::-webkit-input-placeholder {
+  color: black;
+  
+}
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) {
+
+
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+.about{
+  cursor: pointer;
+
+    font-size: 6pt;
+    font-family: gt_walsheim;
+    text-align: right;
+    margin: 0 auto;
+    bottom: 10px;
+    left: 3%;
+    z-index: 100000;
+    position:fixed;
+    color: white;
+
+}
+
+#container0 {
+  background-size: 100%;
+  background-image: linear-gradient(90deg, #5292BD 0%, #9586C4 46%, #BE5E6D 87%, #F25555 100%);  
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: fixed;
+  opacity: 100%;
+  z-index: -1;
+  transition: opacity 3s linear;
+  
+}
+/*
+Right side 1*/
+
+#container95 {
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(90deg, #5292BD 0%, #9586C4 23%, #BE5E6D 56%, #F25555 100%);
+  display: inline-block;
+  position: fixed;
+  z-index: -2;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+  
+}
+
+/*RIGHT 2*/
+
+#container90 {
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(90deg, #5292BD 0%, #9586C4 10%, #BE5E6D 32%, #E95759 58%, #F25555 100%);
+  display: inline-block;
+  position: fixed;
+  z-index: -3 ;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+
+  
+}
+/*
+RIGHT 3*/
+
+#container105 {
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+   background-image: linear-gradient(90deg, #5292BD 0%, #9586C4 0%, #BE5E6D 0%, #F25555 100%);
+  display: inline-block;
+  position: fixed;
+  z-index: -4 ;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+
+  
+}
+
+/*LEFT 1*/
+
+#container110 {
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(90deg, #5292BD 25%, rgba(146,134,196,0.87) 48%, #BE5E6D 77%, #F25555 100%);
+  display: inline-block;
+  position: fixed;
+  z-index: -5 ;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+
+  
+}
+
+#container115 {
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(90deg, #5292BD 45%, #9286C4 65%, #BE5E6D 87%, #F25555 100%);
+  display: inline-block;
+  position: fixed;
+  z-index: -5 ;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+
+  
+}
+
+
+#container120 {
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(-90deg, #5292BD 73%, #9286C4 81%, #BE5E6D 97%, #F25555 100%);
+  display: inline-block;
+  position: fixed;
+  z-index: -5 ;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+
+  
+}
+
+#containerwhite{
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: white;
+  display: inline-block;
+  position: fixed;
+  z-index: -6 ;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+
+  
+}
+
+
+
+
+@font-face {
+    font-family: 'gt_walsheim';
+    src: url('../fonts/gt-walsheim-pro-trial-medium-webfont.woff2') format('woff2'),
+         url('../fonts/gt-walsheim-pro-trial-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+   
+
+}
+
+.clicked{
+  display: block;
+
+}
+
+.article-rating{
+  margin-top: 5px;
+  margin-top: 0;
+  color: white;
+  padding: 5px;
+  font-size: 8pt;
+  margin-left: 5px;
+  text-align: left;
+    font-family: gt_walsheim;
+  display: none;
+  position: relative;
+  left: 0;
+  top: 1%;
+  max-width:  30%;
+  height: auto;
+  cursor: pointer;
+  
+}
+
+.article-source{display: none;}
+
+
+
+.footer p {
+  cursor: pointer;
+
+    font-size: 6pt;
+    font-family: gt_walsheim;
+    text-align: right;
+    margin: 0 auto;
+    bottom: 10px;
+    right: 3%;
+    z-index: 100000;
+    position:fixed;
+    color: white;
+
+}
+
+.logo{
+  left: 10px;
+  top: 10px;
+  position: fixed;
+  font-family: gt_walsheim;
+  font-size: 16px;
+  color: white;
+  padding: 10px;
+  width: auto;
+  height: 40px;
+}
+
+.logo:hover{
+  color: transparent;
+  
+
+}
+
+#container {
+  position: absolute;
+  overflow: scroll;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%);  
+  z-index: 2;
+  background-color: transparent;
+  height: auto;
+  width: 90%;
+  /*border: solid 1.5px white;*/
+  
+
+  /*column-count: 1;
+  column-gap: 0;
+  padding: 20px;*/
+}
+
+.articleTitle:hover{
+  border:solid 1.5px black;
+  background-color: white;
+  color: black;
+}
+
+
+.article-image-container {
+  width: 100%;
+  box-sizing: border-box;
+  transition: .2s cubic-bezier(0,0,0,1);
+  margin-bottom: 20px;
+}
+
+.article-image {
+  display: none;
+}
+
+.article-container {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  /*padding: 20px;*/
+  /*margin-bottom: 10px;*/
+  margin-top: 10px;
+
+}
+
+.title-container{
+
+  padding:10px;
+  border: 1.5px solid white;
+  margin-bottom: 15px;
+  left: 0;
+  width: 93%;
+  z-index: 1;
+}
+
+@keyframes up {
+  to {
+    margin-top: 0;
+  }
+}
+
+
+
+.articleTitle {
+  /*border: 1.5px solid white;*/
+  font-family: 'gt_walsheim';
+  font-size: 12px;
+  max-width: 100%;
+  padding:10px;
+  color: white;
+  z-index: 800000;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: lighter;
+  transition-timing-function: ease-out;
+
+  
+}
+
+.articleTitle: hover {
+  background-color: white;
+  color: black;
+  /*border: solid 1.5px black;*/
+
+}
+
+.article-author {
+  display: none;
+}
+
+.article-description {
+  display: none;
+  overflow: scroll;
+  text-align: left;
+  /*display: block;*/
+  position: relative;
+  left: 2%;
+  /*border: 1.5px solid white;*/
+  font-family: 'gt_walsheim';
+  font-size:12px;
+  padding-top:10px;
+  margin-bottom: 5px;
+  max-width: 90%;
+  height: auto;
+  color: white;
+    text-decoration: none;
+  
+    font-weight: lighter;
+
+
+}
+
+
+
+.description-container{
+  display: inline-block;
+  position: relative;
+  left: 2%;
+  max-width: 80%;
+  height: auto;
+  border: solid black;
+  
+}
+
+#input {
+  position: fixed;
+  width: 90%;
+  left: 50%;
+  transform: translate(-50%);
+  top: 4%;
+  z-index: 9000;
+  background-color: white;
+  height: 40px;
+  border: 1.5px solid black;
+  text-align: center;
+  font-family: gt_walsheim;
+  color: black;
+  border-bottom: 1.5px solid black;
+  font-size: 14px;
+  outline: 0;
+  transition-timing-function: ease-out;
+    transition-delay: 6s;
+
+}
+
+/*#input:focus {
+  border-bottom: 1.5px solid white;
+  background-color: white;
+  color: black; 
+
+}*/
+/*
+#input:hover{
+  background-color: white;
+  color: black;
+
+}*/
+
+::-webkit-input-placeholder {
+  color: black;
+  
+}
+
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+.about{
+  cursor: pointer;
+
+    font-size: 6pt;
+    font-family: gt_walsheim;
+    text-align: right;
+    margin: 0 auto;
+    bottom: 10px;
+    left: 3%;
+    z-index: 100000;
+    position:fixed;
+    color: white;
+
+}
+
+#container0 {
+  background-size: 100%;
+  background-image: linear-gradient(90deg, #5292BD 0%, #9586C4 46%, #BE5E6D 87%, #F25555 100%);  
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: fixed;
+  opacity: 100%;
+  z-index: -1;
+  transition: opacity 3s linear;
+  
+}
+/*
+Right side 1*/
+
+#container95 {
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(90deg, #5292BD 0%, #9586C4 23%, #BE5E6D 56%, #F25555 100%);
+  display: inline-block;
+  position: fixed;
+  z-index: -2;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+  
+}
+
+/*RIGHT 2*/
+
+#container90 {
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(90deg, #5292BD 0%, #9586C4 10%, #BE5E6D 32%, #E95759 58%, #F25555 100%);
+  display: inline-block;
+  position: fixed;
+  z-index: -3 ;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+
+  
+}
+/*
+RIGHT 3*/
+
+#container105 {
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+   background-image: linear-gradient(90deg, #5292BD 0%, #9586C4 0%, #BE5E6D 0%, #F25555 100%);
+  display: inline-block;
+  position: fixed;
+  z-index: -4 ;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+
+  
+}
+
+/*LEFT 1*/
+
+#container110 {
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(90deg, #5292BD 25%, rgba(146,134,196,0.87) 48%, #BE5E6D 77%, #F25555 100%);
+  display: inline-block;
+  position: fixed;
+  z-index: -5 ;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+
+  
+}
+
+#container115 {
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(90deg, #5292BD 45%, #9286C4 65%, #BE5E6D 87%, #F25555 100%);
+  display: inline-block;
+  position: fixed;
+  z-index: -5 ;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+
+  
+}
+
+
+#container120 {
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(-90deg, #5292BD 73%, #9286C4 81%, #BE5E6D 97%, #F25555 100%);
+  display: inline-block;
+  position: fixed;
+  z-index: -5 ;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+
+  
+}
+
+#containerwhite{
+  background-size: 100%;
+  padding: 0;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: white;
+  display: inline-block;
+  position: fixed;
+  z-index: -6 ;
+  margin: 0;
+  transition: opacity 5s linear;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+
+  
+}
+
+
+
+
+@font-face {
+    font-family: 'gt_walsheim';
+    src: url('../fonts/gt-walsheim-pro-trial-medium-webfont.woff2') format('woff2'),
+         url('../fonts/gt-walsheim-pro-trial-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+   
+
+}
+
+.clicked{
+  display: block;
+
+}
+
+.article-rating{
+  margin-top: 5px;
+  margin-top: 0;
+  color: white;
+  padding: 5px;
+  font-size: 8pt;
+  margin-left: 5px;
+  text-align: left;
+    font-family: gt_walsheim;
+  display: none;
+  position: relative;
+  left: 0;
+  top: 1%;
+  max-width:  30%;
+  height: auto;
+  cursor: pointer;
+  
+}
+
+.article-source{display: none;}
+
+
+
+.footer p {
+  cursor: pointer;
+
+    font-size: 6pt;
+    font-family: gt_walsheim;
+    text-align: right;
+    margin: 0 auto;
+    bottom: 10px;
+    right: 3%;
+    z-index: 100000;
+    position:fixed;
+    color: white;
+
+}
+
+.logo{
+  left: 10px;
+  top: 10px;
+  position: fixed;
+  font-family: gt_walsheim;
+  font-size: 16px;
+  color: white;
+  padding: 10px;
+  width: auto;
+  height: 40px;
+}
+
+.logo:hover{
+  color: transparent;
+  
+
+}
+
+#container {
+  position: absolute;
+  overflow: scroll;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%);  
+  z-index: 2;
+  background-color: transparent;
+  height: auto;
+  width: 88%;
+  /*border: solid 1.5px white;*/
+  
+
+  /*column-count: 1;
+  column-gap: 0;
+  padding: 20px;*/
+}
+
+.articleTitle:hover{
+  border:solid 1.5px black;
+  background-color: white;
+  color: black;
+}
+
+
+.article-image-container {
+  width: 100%;
+  box-sizing: border-box;
+  transition: .2s cubic-bezier(0,0,0,1);
+  margin-bottom: 20px;
+}
+
+.article-image {
+  display: none;
+}
+
+.article-container {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  /*padding: 20px;*/
+  /*margin-bottom: 10px;*/
+  margin-top: 10px;
+
+}
+
+.title-container{
+  position: relative;
+  padding:10px;
+  border: 1.5px solid white;
+  margin-bottom: 15px;
+  left: 0;
+  width: 94 %;
+  z-index: 1;
+}
+
+@keyframes up {
+  to {
+    margin-top: 0;
+  }
+}
+
+
+
+.articleTitle {
+  /*border: 1.5px solid white;*/
+  font-family: 'gt_walsheim';
+  font-size: 12px;
+  max-width: 100%;
+  padding:10px;
+  color: white;
+  z-index: 800000;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: lighter;
+  transition-timing-function: ease-out;
+
+  
+}
+
+.articleTitle: hover {
+  background-color: white;
+  color: black;
+  /*border: solid 1.5px black;*/
+
+}
+
+.article-author {
+  display: none;
+}
+
+.article-description {
+  display: none;
+  overflow: scroll;
+  text-align: left;
+  /*display: block;*/
+  position: relative;
+  left: 2%;
+  /*border: 1.5px solid white;*/
+  font-family: 'gt_walsheim';
+  font-size:12px;
+  padding-top:10px;
+  margin-bottom: 5px;
+  max-width: 90%;
+  height: auto;
+  color: white;
+    text-decoration: none;
+  
+    font-weight: lighter;
+
+
+}
+
+
+
+.description-container{
+  display: inline-block;
+  position: relative;
+  left: 2%;
+  max-width: 80%;
+  height: auto;
+  border: solid black;
+  
+}
+
+#input {
+  position: fixed;
+  width: 90%;
+  left: 50%;
+  transform: translate(-50%);
+  top: 4%;
+  z-index: 9000;
+  background-color: white;
+  height: 40px;
+  border: 1.5px solid black;
+  text-align: center;
+  font-family: gt_walsheim;
+  color: black;
+  border-bottom: 1.5px solid black;
+  font-size: 14px;
+  outline: 0;
+  transition-timing-function: ease-out;
+    transition-delay: 6s;
+
+}
+
+/*#input:focus {
+  border-bottom: 1.5px solid white;
+  background-color: white;
+  color: black; 
+
+}*/
+/*
+#input:hover{
+  background-color: white;
+  color: black;
+
+}*/
+
+::-webkit-input-placeholder {
+  color: black;
+  
+}
+
+}
+
+
+
